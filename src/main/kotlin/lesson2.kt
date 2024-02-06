@@ -1,3 +1,3 @@
 fun main() {
-    println("Lesson2")
+    println("Я слежу за вами")
 }
