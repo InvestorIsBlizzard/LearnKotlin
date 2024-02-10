@@ -35,6 +35,7 @@ fun main() {
 //   println(mutableList)
 
    mutableList.forEach { number: Int ->  // alt + ent + выделенная фиг. скобка позволяет задать ей тип сигнатуры лямбды *лямбда подсказка: it: Int
+       // forEach для каждого
        // shit + F6 с выделенной it позволяют задать ей новое название
 //       println(number) // it - переменная, которая основывается на типе списка, так как у нас инт, то и она будет инт
    }
@@ -44,7 +45,7 @@ fun main() {
     // break, continue -> for
 
  val mutableList2 = mutableList.filter {
-     // функия для фильтрации коллекции
+     // функция для фильтрации коллекции
      it == 42
  }
 //    mutableList2.forEach{ println(it) }
