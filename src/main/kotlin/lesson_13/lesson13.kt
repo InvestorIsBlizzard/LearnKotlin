@@ -17,7 +17,7 @@ fun main() {
 //    val stringLength: Int = nullableString?.length ?: 999  // ?: - оператор элвис, заменяет esle, возвращает значение определенного типа
 //    println(stringLength)
 
-    val stringLength: Int = nullableString?!!.length // !! оператор утверждения, который говорит о том, что null точно быть не может и что все будет ок))
+    val stringLength: Int = nullableString!!.length // !! оператор утверждения, который говорит о том, что null точно быть не может и что все будет ок))
 
 
 
