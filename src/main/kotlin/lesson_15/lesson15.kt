@@ -9,5 +9,5 @@ fun main() {
     upsilonShuttle.prepareForLanding()
     upsilonShuttle.startShooting()
     upsilonShuttle.reloadGuns()
-    
+
 }
